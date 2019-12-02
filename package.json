@@ -4,8 +4,8 @@
   "description": "## Índice",
   "main": "lib/index.js",
   "scripts": {
-    "eslint": "eslint --ext .js src/__tests__/ --fix",
-    "test": "jest --coverage --watch"
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js src/__tests__/ --fix"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
