@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/catbarbosa/SAP003-md-links/issues"
   },
-  "homepage": "https://github.com/catbarbosa/SAP003-md-links#readme"
+  "homepage": "https://github.com/catbarbosa/SAP003-md-links#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
