@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --coverage",
-    "eslint": "eslint --ext .js src/__tests__/ --fix"
+    "eslint": "eslint --ext .js lib/",
+    "pretest": "npm run eslint"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
