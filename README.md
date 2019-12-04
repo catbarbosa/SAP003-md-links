@@ -12,8 +12,8 @@
 
 ## 1. Sobre
 
-Uma biblioteca em JavaScript Vanilla, com o objetivo de extrai links de url em um arquivo _markdown_. O modo de utiliza-la detalhamente está sendo descrito abaixo, mas poderá ser executada diretamente pelo terminal ou importado com (`require`) no seu código.
-O retorno da função é uma (`Promise`) que devolve um (`Array`) e (`Objects`) contendo as seguintes informações:
+Uma biblioteca em JavaScript Vanilla, com o objetivo de extrai links de url em um arquivo _markdown_. O modo de utiliza-la detalhamente está sendo descrito abaixo, mas poderá ser executada diretamente pelo terminal ou importado com `require` no seu código.
+O retorno da função é uma `Promise` que devolve um `Array` e `Objects` contendo as seguintes informações:
 
 `href`: URL encontrada.
 
